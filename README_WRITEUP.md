@@ -20,8 +20,8 @@ Used LeNet.
 |Layer|Description|
 |----|:-----:|
 |Input|32x32x3|
-|Activation|Relu|
 |Conv Layer|28x28x6|
+|Activation|Relu|
 |First Output/2nd Input | 10x10x6 |
 | 2nd Layer| Relu, Conv|
 |3rd Layer Input |Fully Connected, 400x120|
@@ -59,6 +59,12 @@ out.
 
 #### Challenges for new example images
 
-The only thing I can see that has an additional characteristic is the quality and make of camera that was used to take the picture. I noticed that some of the color hues and values are different compared to the ones taken more recently. 
+#Are there any differences in the signs, their position or image quality that might influence the results?
+
+The only thing I can see that has an additional characteristic is the quality
+and make of camera that was used to take the picture. I noticed that some of the
+ color hues and values are different compared to the ones taken more recently.
+ The position and distance from the camera, for example if the pictures were
+ taken at 90 degrees from the surface of the sign.
 
 ####
